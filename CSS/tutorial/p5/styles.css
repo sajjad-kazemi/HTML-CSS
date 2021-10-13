@@ -1,0 +1,50 @@
+* {
+    font-size: 30px;
+}
+h1 {
+    font-size: 50px;
+    background: red;
+    text-align: center;
+    width: 400px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 5px dashed pink;
+    margin: 0px 20px 10px 20px;
+    border-radius: 50%;
+}
+p {
+    background: rgb(255, 53, 177);
+    /* padding: 10px 40px 30px; */
+    /* padding: Top Left&Right Bottom; */
+    padding: 10px 20px 30px 40px;
+    /* padding: Top Right Bottom Left */
+    border-style: outset;
+    border-width: 10px;
+    border-color: rgb(20, 220, 30);
+    border-bottom-color: rgb(0, 255, 255);
+    border-top-style: dotted;
+    border-top-color: rgb(0, 183, 255);
+    margin: 0px 20px 10px 20px;
+    border-radius: 5px;
+}
+.button {
+    margin: 20px;
+}
+a {
+    background: red;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+}
+#one {
+    outline: 10px solid black;
+    outline-offset: 10px;
+    border: solid green 10px;
+}
+#two {
+    border: solid green 10px;
+}
