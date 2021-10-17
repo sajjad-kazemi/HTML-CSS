@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+.block {
+    background: rgb(3, 150, 3);
+    color: white;
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+}
+.inline {
+    background: blue;
+    color: white;
+    display: inline;
+    text-decoration: none;
+}
