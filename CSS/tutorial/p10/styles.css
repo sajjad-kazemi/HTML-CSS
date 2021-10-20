@@ -1,0 +1,24 @@
+div{
+    height: 400px;
+    color: red;
+    font-size:40px;
+}
+.big-image{
+    background: url(img/animals-on-zoo.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: top;
+}
+.small-image{
+    background: url(img/albino-alligator.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: left;
+    background-position: center;
+    background-position: top;
+}
+.folder-image{
+    background: url(img/crocodile-toy.jpg);
+    background-repeat: round;
+    background-size: cover;
+}
