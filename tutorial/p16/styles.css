@@ -1,0 +1,19 @@
+div{
+    border: 5px solid red;
+    background: yellow;
+    margin: top 40px;
+    font-size: 20px
+    position: static;
+}
+.one{
+    background:rgb(38, 187, 38);
+    position: relative;
+    top: 90px;
+}
+.two{
+    background:rgb(87, 87, 248);
+}
+.special{
+    background:orchid;
+    font-size: 25px;
+}

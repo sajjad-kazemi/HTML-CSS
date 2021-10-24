@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    font-size: 60px;
+    color: coral;
+}
+.banner{
+    background: url(img/animals-on-zoo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0,0.5)),url(img/animals-on-zoo.jpg) center/cover no-repeat fixed;
+}
+.gradientgenarator{
+    background: linear-gradient(90deg, rgba(14,0,255,1) 0%, rgba(0,255,243,1) 31%, rgba(251,235,2,1) 59%, rgba(0,212,255,1) 78%, rgba(0,3,138,1) 94%);
+}
