@@ -1,0 +1,18 @@
+div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+.one{
+    background: red;
+    transform: translateX(50%) scale(0.5) rotate(9deg) skew(-10deg,-10deg);
+}
+.two{
+    background:green;
+    transform: translate(0,75px) scale(0.5) rotateY(20deg) rotateZ(20deg) ;
+}
+.three{
+    background:blue;
+    /* transform: translate(150%,-50%); */
+    transform:scale(1.5) rotate(40deg) ;
+}

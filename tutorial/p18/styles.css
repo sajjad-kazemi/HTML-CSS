@@ -2,7 +2,7 @@
 content:'' is importatn
 img is not supported
  */
- p::before {
+p::before {
     display: block;
     background: cyan;
     color: red;
@@ -37,6 +37,7 @@ div::before {
     top: -20px;
     left: -20px;
     z-index: -2;
+    transition: all 0.5s linear;
 }
 div::after {
     content: "";
@@ -45,7 +46,17 @@ div::after {
     height: 100%;
     position: absolute;
     box-sizing: border-box;
-    left: -10;
-    top: -10;
-    z-index: -1;
+    left: -10px;
+    top: -10px;
+    z-index: -2;
+    transition: all 0.5s linear;
+}
+div:hover::after{
+    top:0;
+    left: 0;
+}
+
+div:hover::before{
+    top:0;
+    left: 0;
 }

@@ -1,0 +1,31 @@
+.header h1{
+    color:green;
+}
+.header>h1{
+    color:purple;
+}
+div h1{
+    color:red;
+}
+div > h1{
+    color: blue;
+}
+p::first-line{
+    font-weight: 700;
+}
+p::first-letter{
+    font-size: 5rem;
+}
+.head:hover{
+    background: blue;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    background:blue;
+    color: white;
+}
+a:active{
+    background:black;
+    color: red;
+}

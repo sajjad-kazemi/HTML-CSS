@@ -1,0 +1,30 @@
+
+div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+div:hover{
+    background-color: coral;
+}
+.one{
+    background: red;
+}
+.two{
+    background: green;
+    transition: background 300ms, border-radius 200ms;
+    transition-delay:0.1s;
+}
+.three{
+    background: blue;
+    transition-property: background , border-radius;
+    transition-duration: 0.25s;
+    /* transition-timing-function: ease-out; */
+}
+.three:hover{
+    /* border-radius: 50%; */
+}
+.two:hover{
+    background: yellowgreen;
+    border-radius: 50%;
+}
