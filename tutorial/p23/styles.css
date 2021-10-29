@@ -1,0 +1,38 @@
+/* css variables */
+/* global variables */
+:root{
+    --headingscolor: #8a6c1c;
+    --secondarycolor: #f15025;
+    --maintransition: all 400ms ease-out;
+}
+.heading1{
+    color: var(--headingscolor);
+    transition: var(--maintransition);
+    display: inline-block;
+
+}
+.heading2{
+    color: var(--headingscolor);
+    transition: var(--maintransition);
+    /* display: inline-block; */
+    transform-origin: 0%;
+}
+.heading2:hover,.heading1:hover{
+    color:var(--secondarycolor);
+    transform: scale(1.04);
+}
+/* local variables */
+div{
+    --primaryred: rgb(235, 60, 98);
+}
+.pr2{
+    color: var(--primaryred)
+}
+/* for icon */
+.fa-home{
+    color: rgb(0, 138, 18);
+}
+.social{
+    font-size:2.1em;
+    color: blue;
+}
